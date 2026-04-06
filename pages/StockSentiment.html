@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title>About Stock Sentiment Tracker</title>
+        <title>About Stock Sentiment Analyzer</title>
         <meta charset = "utf-8">
         <style>
             body {
@@ -9,7 +9,7 @@
                 flex-direction: column;
                 align-items: center;
                 background-color: #181818;
-                font-family: monospace
+                font-family: monospace;
             }
             header {
                 text-align: center;
@@ -23,17 +23,20 @@
                 flex-direction: column;
                 align-items: center;
             }
+            img {
+                max-width: 900px;
+            }
             p {
-                max-width: 1000px
+                padding-inline: 30px;
+                max-width: 1000px;
             }
             a {
                 transition: 0.3s;
                 text-decoration: none;
                 color: #c7c7c7;
-                
             }
             a:hover {
-                color: #00ffb5
+                color: #00ffb5;
             }
 
         </style>
@@ -42,11 +45,11 @@
         <!--Header for index page-->
         <header>
             <a href="../index.html"> <p>&lt;-- Click here to return to home</p> </a>
-            <h1>Stock Sentiment Tracker</h1>
+            <h1>Stock Sentiment Analyzer</h1>
             <h3>My final project for CSCI 331.</h3>
         </header>
         <section>
-            <img src="../img/sst2.png" width = 900px alt="">
+            <img src="../img/sst2.png" width = 80% alt="">
             <h1>About this project:</h1>
             <p>This is a group project I helped create in my CSCI 331 class. It features an web front end using Flask, and backend written
             in python. The app provides an overview of the performance of stocks entered in the search bar and allows users to save stock symbols in order for the program to send email alerts to them when a notable change occurs.</p>

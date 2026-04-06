@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title>Index Page</title>
+        <title>Q-ACT Programming Projects</title>
         <meta charset = "utf-8">
         <style>
             body {
@@ -9,7 +9,7 @@
                 flex-direction: column;
                 align-items: center;
                 background-color: #181818;
-                font-family: monospace
+                font-family: monospace;
             }
             header {
                 text-align: center;
@@ -19,8 +19,8 @@
             }
             section {
                 display: flex;
-                flex-direction: row;
-                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
             }
             .card {
                 display: flex;
@@ -30,7 +30,7 @@
                 transition: 0.3s;
                 padding: 5px;
                 margin: 10px;
-                border: 2px solid
+                border: 2px solid;
             }
             .ctext {
                 background-color: #444444;
@@ -46,10 +46,10 @@
                 color: #000000;
             }
             .card:hover {
-                color: #00ffb5
+                color: #00ffb5;
             }
             .card:hover .cardimg {
-                filter: none
+                filter: none;
             }
 
         </style>
@@ -58,16 +58,14 @@
         <!--Header for index page-->
         <header>
             <h1>My Programming Projects</h1>
-            <h3>Here is a list of some notable programming projects I have made.</h3>
+            <h3>Here is a list of some notable programming projects I've worked on.</h3>
         </header>
         <!--Cards to navigate to different pages-->
-        
-        <!--First Row-->
         <section>
             <a href="pages/StockSentiment.html">
                 <div class = "card">
                     <div class = "ctext">
-                        <h2>Stock Sentiment Tracker</h2></div>
+                        <h2>Stock Sentiment Analyzer</h2></div>
                     <div class = "cardimg">
                         <img src="img/sst.png" width = "400px" alt="">
                     </div>
@@ -93,11 +91,6 @@
                     </div>
                 </div>
             </a>
-
-        </section>
-        
-        <!--Second Row-->
-        <section>
             
             <a href="pages/Asciitron.html">
                 <div class = "card">
