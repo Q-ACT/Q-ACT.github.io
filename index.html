@@ -40,6 +40,7 @@
             .cardimg {
                 transition: 0.3s;
                 filter: grayscale();
+                max-width: 400px
             }
             a {
                 text-decoration: none;
@@ -50,6 +51,51 @@
             }
             .card:hover .cardimg {
                 filter: none;
+            }
+            
+            @media only screen and (max-width: 767px) 
+            {
+                header {
+                    text-align: center;
+                    color: rgb(255, 255, 255);
+                    padding: 5px;
+                    margin-bottom: 5px;
+                }
+                section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    background-color: #202020;
+                    transition: 0.3s;
+                    padding: 5px;
+                    margin: 10px;
+                    border: 2px solid;
+                }
+                .ctext {
+                    background-color: #444444;
+                    font-size: small;
+                    margin-bottom: 5px;
+                }
+                .cardimg {
+                    transition: 1s;
+                    filter: grayscale();
+                    max-width: 1000px
+                }
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                }
+                .card:active {
+                    color: #00ffb5;
+                }
+                .card:active .cardimg {
+                    filter: none;
+                }                
             }
 
         </style>
@@ -67,7 +113,7 @@
                     <div class = "ctext">
                         <h2>Stock Sentiment Analyzer</h2></div>
                     <div class = "cardimg">
-                        <img src="img/sst.png" width = "400px" alt="">
+                        <img src="img/sst.png" width = "100%" alt="">
                     </div>
                 </div>                
             </a>
@@ -77,7 +123,7 @@
                     <div class = "ctext">
                         <h2>Surrounded</h2></div>
                     <div class = "cardimg">
-                        <img src="img/surrounded.png" width = "400px" alt="">
+                        <img src="img/surrounded.png" width = "100%" alt="">
                     </div>
                 </div>
             </a>
@@ -87,7 +133,7 @@
                     <div class = "ctext">
                         <h2>Dinolearn</h2></div>
                     <div class = "cardimg">
-                        <img src="img/dinolearn.png" width = "400px" alt="">
+                        <img src="img/dinolearn.png" width = "100%" alt="">
                     </div>
                 </div>
             </a>
@@ -97,7 +143,7 @@
                     <div class = "ctext">
                         <h2>Asciitron</h2></div>
                     <div class = "cardimg">
-                        <img src="img/ascii.png" width = "400px" alt="">
+                        <img src="img/ascii.png" width = "100%" alt="">
                     </div>
                 </div>
             </a>
@@ -107,7 +153,7 @@
                     <div class = "ctext">
                         <h2>Jumpybois</h2></div>
                     <div class = "cardimg">
-                        <img src="img/jumpysprites.png" width = "400px" alt="">
+                        <img src="img/jumpysprites.png" width = "100%" alt="">
                     </div>
                 </div>
             </a>
