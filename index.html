@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Index Page</title>
+        <meta charset = "utf-8">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #181818;
+                font-family: monospace
+            }
+            header {
+                text-align: center;
+                color: rgb(255, 255, 255);
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+            section {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .card {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                background-color: #202020;
+                transition: 0.3s;
+                padding: 5px;
+                margin: 10px;
+                border: 2px solid
+            }
+            .ctext {
+                background-color: #444444;
+                font-size: small;
+                margin-bottom: 5px;
+            }
+            .cardimg {
+                transition: 0.3s;
+                filter: grayscale();
+            }
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+            .card:hover {
+                color: #00ffb5
+            }
+            .card:hover .cardimg {
+                filter: none
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--Header for index page-->
+        <header>
+            <h1>My Programming Projects</h1>
+            <h3>Here is a list of some notable programming projects I have made.</h3>
+        </header>
+        <!--Cards to navigate to different pages-->
+        
+        <!--First Row-->
+        <section>
+            <a href="pages/StockSentiment.html">
+                <div class = "card">
+                    <div class = "ctext">
+                        <h2>Stock Sentiment Tracker</h2></div>
+                    <div class = "cardimg">
+                        <img src="img/sst.png" width = "400px" alt="">
+                    </div>
+                </div>                
+            </a>
+
+            <a href="pages/Surrounded.html">
+                <div class = "card">
+                    <div class = "ctext">
+                        <h2>Surrounded</h2></div>
+                    <div class = "cardimg">
+                        <img src="img/surrounded.png" width = "400px" alt="">
+                    </div>
+                </div>
+            </a>
+            
+            <a href="pages/DinoLearn.html">
+                <div class = "card">
+                    <div class = "ctext">
+                        <h2>Dinolearn</h2></div>
+                    <div class = "cardimg">
+                        <img src="img/dinolearn.png" width = "400px" alt="">
+                    </div>
+                </div>
+            </a>
+
+        </section>
+        
+        <!--Second Row-->
+        <section>
+            
+            <a href="pages/Asciitron.html">
+                <div class = "card">
+                    <div class = "ctext">
+                        <h2>Asciitron</h2></div>
+                    <div class = "cardimg">
+                        <img src="img/ascii.png" width = "400px" alt="">
+                    </div>
+                </div>
+            </a>
+                
+            <a href="pages/JumpyBois.html">
+                <div class = "card">
+                    <div class = "ctext">
+                        <h2>Jumpybois</h2></div>
+                    <div class = "cardimg">
+                        <img src="img/jumpysprites.png" width = "400px" alt="">
+                    </div>
+                </div>
+            </a>
+        </section>
+    </body>
+</html>
