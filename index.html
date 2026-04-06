@@ -48,6 +48,7 @@
             }
             .card:hover {
                 color: #00ffb5;
+                transform: scale(90%);
             }
             .card:hover .cardimg {
                 filter: none;
@@ -61,8 +62,13 @@
                 header {
                     text-align: center;
                     color: rgb(255, 255, 255);
-                    padding: 5px;
-                    margin-bottom: 5px;
+                    padding: 5%;
+                    margin-bottom: 5%;
+                    font-size: larger;
+                }
+                h3 {
+                    color: #707070;
+                    font-size: 90%;
                 }
                 section {
                     display: flex;
@@ -74,19 +80,19 @@
                     flex-direction: column;
                     text-align: center;
                     background-color: #202020;
-                    transition: 0.3s;
+                    transition: 0.5s;
                     padding: 5px;
                     margin: 10px;
                     border: 2px solid;
                 }
                 .ctext {
                     background-color: #444444;
-                    font-size: small;
+                    font-size: large;
                     margin-bottom: 5px;
                 }
                 .cardimg {
-                    transition: 1s;
-                    filter: none;
+                    transition: 0.5s;
+                    filter: grayscale();
                     max-width: fit-content;
                 }
                 a {
@@ -95,6 +101,7 @@
                 }
                 .card:active {
                     color: #00ffb5;
+                    transform: scale(90%);
                 }
                 .card:active .cardimg {
                     filter: none;
