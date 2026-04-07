@@ -1,10 +1,17 @@
+html{
+    box-shadow: inset 0 0 15px #00ffb5,
+        inset 0 50px 10000px #000000;
+                
+    border: 1px solid #00ffb5;
+}
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #181818;
+    background-color: #0f1415;
     font-family: monospace;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
+    margin-inline: 3%;
 }
 header {
     text-align: center;
@@ -20,6 +27,8 @@ section {
 }
 img {
     max-width: 900px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
 }
 p {
     padding-inline: 30px;
@@ -29,22 +38,20 @@ a {
     transition: 0.3s;
     text-decoration: none;
     color: #c7c7c7;
-    background-color: #282828;
-    z-index: 10;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
 }
+
 a:hover {
     color: #00ffb5;
     font-size: 105%;
+    box-shadow: 0 0 15px #00ffb5;
 }
 /*CSS for mobile users*/
 @media (pointer: coarse)
 {
     body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #181818;
-        font-family: monospace;
         margin-bottom: 25%;
     }
     html {

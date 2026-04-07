@@ -1,10 +1,16 @@
+html{
+    box-shadow: inset 0 0 15px #00ffb5,
+        inset 0 50px 10000px #000000;
+                
+    border: 1px solid #00ffb5;
+}
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #181818;
+    background-color: #0f1415;
     font-family: monospace;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
 }
 header {
     text-align: center;
@@ -17,20 +23,29 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
+img {
+        border-radius: 10px;
+}
 .card {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #202020;
+    background-color: #181818;
     transition: 0.3s;
     padding: 5px;
     margin: 10px;
     border: 2px solid;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
 }
 .ctext {
-    background-color: #444444;
+    background-color: #202020;
     font-size: small;
     margin-bottom: 5px;
+    color: #939393;
+    transition: 0.3s;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 10px;
 }
 .cardimg {
     transition: 0.3s;
@@ -40,6 +55,9 @@ section {
 a {
     text-decoration: none;
     color: #000000;
+}
+.card:hover .ctext{
+    color: #00ffb5;
 }
 .card:hover {
     color: #00ffb5;
@@ -56,11 +74,6 @@ a {
         font-size: 150%;
     }
     body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #181818;
-        font-family: monospace;
         margin-bottom: 15%;
     }
     header {
@@ -83,14 +96,12 @@ a {
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: #202020;
-        transition: 0.3s;
+        transition: 0.8s;
         padding: 5px;
-        margin: 10px;
+        margin: 5%;
         border: 2px solid;
     }
     .ctext {
-        background-color: #444444;
         font-size: x-large;
         margin-bottom: 5px;
     }
