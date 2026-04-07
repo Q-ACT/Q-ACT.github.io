@@ -65,7 +65,7 @@ a {
 }
 
 /*CSS for mobile users*/
-@media (pointer: coarse)
+@media (pointer: fine)
 {
     html {
         font-size: 150%;
@@ -93,9 +93,9 @@ a {
         display: flex;
         flex-direction: column;
         text-align: center;
-        transition: 2s;
+        transition: 0.3s;
         padding: 5px;
-        margin: 2%;
+        margin: 1%;
         border: 2px solid;
     }
     .ctext {
