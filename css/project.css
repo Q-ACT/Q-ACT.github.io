@@ -49,7 +49,7 @@ a:hover {
     box-shadow: 0 0 10px #00ffb5;
 }
 /*CSS for mobile users*/
-@media (pointer: fine)
+@media (pointer: coarse)
 {
     body {
         margin-bottom: 25%;
