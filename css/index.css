@@ -93,7 +93,7 @@ a {
         display: flex;
         flex-direction: column;
         text-align: center;
-        transition: 0.8s;
+        transition: 2s;
         padding: 5px;
         margin: 2%;
         border: 2px solid;
