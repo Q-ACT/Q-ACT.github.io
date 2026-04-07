@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0f1415;
+    background-color: #1d2f2c;
     font-family: monospace;
     padding-bottom: 10%;
 }
@@ -72,6 +72,8 @@ a {
 {
     html {
         font-size: 150%;
+        box-shadow: inset 0 50px 10000px #000000;        
+        border: 1px solid #00ffb5;
     }
     body {
         margin-bottom: 15%;
