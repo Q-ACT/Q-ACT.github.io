@@ -1,14 +1,11 @@
 html{
-    box-shadow: inset 0 0 15px #00ffb5,
-        inset 0 50px 10000px #000000;
-                
-    border: 2px solid #00ffb5;
+    box-shadow: inset 0 50px 10000px #000000;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0e1415;
+    background-color: #0d1b1b;
     font-family: monospace;
     padding-bottom: 10%;
 }
@@ -24,7 +21,7 @@ section {
     justify-content: center;
 }
 img {
-        border-radius: 10px;
+    border-radius: 10px;
 }
 .card {
     display: flex;
@@ -36,7 +33,7 @@ img {
     margin: 10px;
     border: 2px solid;
     box-shadow: 0 0 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .ctext {
     background-color: #202020;
