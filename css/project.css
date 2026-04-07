@@ -2,13 +2,13 @@ html{
     box-shadow: inset 0 0 15px #00ffb5,
         inset 0 50px 10000px #000000;
                 
-    border: 1px solid #00ffb5;
+    border: 2px solid #00ffb5;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1d2f2c;
+    background-color: #0e1415;
     font-family: monospace;
     padding-bottom: 10%;
     margin-inline: 3%;
@@ -49,12 +49,10 @@ a:hover {
     box-shadow: 0 0 10px #00ffb5;
 }
 /*CSS for mobile users*/
-@media (pointer: coarse)
+@media (pointer: fine)
 {
     body {
         margin-bottom: 25%;
-        box-shadow: inset 0 50px 10000px #000000;        
-        border: 1px solid #00ffb5;
     }
     html {
         font-size: 145%;
