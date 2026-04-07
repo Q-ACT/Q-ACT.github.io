@@ -40,13 +40,13 @@ a {
     color: #c7c7c7;
     background-color: #1e1e1e;
     border-radius: 10px;
-    box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 10px #000;
 }
 
 a:hover {
     color: #00ffb5;
     font-size: 105%;
-    box-shadow: 0 0 15px #00ffb5;
+    box-shadow: 0 0 10px #00ffb5;
 }
 /*CSS for mobile users*/
 @media (pointer: coarse)
