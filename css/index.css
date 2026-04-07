@@ -27,7 +27,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #353535;
+    background-color: #242424;
     transition: 0.3s;
     padding: 5px;
     margin: 10px;
@@ -36,7 +36,6 @@ img {
     border-radius: 15px;
 }
 .ctext {
-    background-color:  #353535;
     font-size: small;
     margin-bottom: 5px;
     color: #c7c7c7;
