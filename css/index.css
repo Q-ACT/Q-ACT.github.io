@@ -69,8 +69,6 @@ a {
 {
     html {
         font-size: 150%;
-        box-shadow: inset 0 50px 10000px #000000;        
-        border: 1px solid #00ffb5;
     }
     body {
         margin-bottom: 15%;
