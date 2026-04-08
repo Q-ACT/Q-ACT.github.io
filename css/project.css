@@ -137,10 +137,9 @@ a {
 {
     body {
         margin-bottom: 25%;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     header h1{
-        font-size: 250%;
         border-bottom: none;
     }
     html {
@@ -149,8 +148,7 @@ a {
     header {
         text-align: center;
         color: rgb(255, 255, 255);
-        padding: 5%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
     p {
         font-size: xx-large;
