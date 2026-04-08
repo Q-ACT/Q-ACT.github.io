@@ -33,6 +33,7 @@ section {
     color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 img {
     margin-top: 5%;
@@ -46,18 +47,79 @@ p {
     max-width: 1000px;
 }
 a {
-    transition: 0.3s;
     text-decoration: none;
-    color: #c7c7c7;
-    background-color: #242424;
+}
+.btext {
+    color: #9c9c9c
+}
+.button {
+    text-align: center;
+    background-color: #181818;
+    border: 2px solid #434343;
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+    padding: 1px;
 }
-
-a:hover {
+.button:hover {
     color: #00ffb5;
-    font-size: 105%;
+    scale: 105%;
+    border: 2px solid #00ffb5;
     box-shadow: 0 0 10px #00ffb5;
+}
+.langs {
+    display: flex;
+    justify-content: space-evenly;
+    scale: 90%;
+    width: 90%;
+}
+.java p{
+    background-color:  rgba(255, 94, 0, 0.5);;
+    border: solid 0.5mm #ff5e00;
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
+}
+.css p{
+    background-color:  rgba(0, 20, 255, 0.5);;
+    border: solid 0.5mm rgb(73, 88, 255);
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
+}
+.html p{
+    background-color:  rgba(255, 0, 0, 0.5);;
+    border: solid 0.5mm #ff0000;
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
+}
+.javascript p{
+    background-color:  rgba(255, 202, 0, 0.5);;
+    border: solid 0.5mm #ffca00;
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
+}
+.csharp p{
+    background-color:  rgba(117, 0, 255, 0.49);;
+    border: solid 0.5mm #7500ff;
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
+}
+.python p{
+    background-color:  rgba(0, 149, 255, 0.5);;
+    border: solid 0.5mm #0095ff;
+    outline-offset: -73%;
+    border-radius: 10000px;
+    padding-block: 5px;
+    justify-content: center;
 }
 /*CSS for mobile users*/
 @media (pointer: coarse)
@@ -87,8 +149,5 @@ a:hover {
     }
     img {
         max-width: fit-content;
-    }
-    a:active {
-        color: #00ffb5;
     }
 }
