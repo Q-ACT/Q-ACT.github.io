@@ -137,6 +137,11 @@ a {
 {
     body {
         margin-bottom: 25%;
+        margin-top: 10%;
+    }
+    header h1{
+        font-size: 250%;
+        border-bottom: none;
     }
     html {
         font-size: 200%; 
@@ -154,9 +159,6 @@ a {
         transition: 0.3s;
         text-decoration: none;
         color: #c7c7c7;
-    }
-    h1 {
-        padding-top: 5%;
     }
     img {
         max-width: fit-content;
