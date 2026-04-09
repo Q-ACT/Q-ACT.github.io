@@ -1,11 +1,32 @@
 html{
     box-shadow: inset 0 50px 10000px #000000;
+    background-color: #081815;
 }
+@keyframes loadheader {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes loadfadein {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #081815;
     font-family: monospace;
 }
 h1 {
@@ -22,6 +43,8 @@ header {
     margin-bottom: 2%;
     border-bottom: 1px solid rgba(0, 255, 181, 0.38);
     width: 90%;
+    animation: 0.5s loadheader backwards;
+    animation-delay: calc(var(--aorder) * 200ms);
 }
 footer {
     color: rgb(255, 255, 255);
@@ -49,6 +72,8 @@ img {
     border: 2px solid #434343;
     box-shadow: 0 0 10px;
     border-radius: 30px;
+    animation: 0.5s loadfadein 1.5s backwards;
+    animation-delay: calc(var(--aorder) * 200ms);
 }
 .ctext {
     font-size: small;
