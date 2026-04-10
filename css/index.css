@@ -6,20 +6,24 @@ html{
     from {
         opacity: 0;
         transform: translateY(-10%);
+        scale: 110%;
     }
     to {
         opacity: 1;
         transform: translateY(0);
+        scale: 100%;
     }
 }
 @keyframes loadfadein {
     from {
         opacity: 0;
         transform: translateY(10%);
+        scale: 110%;
     }
     to {
         opacity: 1;
         transform: translateY(0);
+        scale: 100%;
     }
 }
 
@@ -28,6 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: monospace;
+    margin-inline: 3%;
 }
 h1 {
     text-shadow: 0 0 10px rgba(0, 255, 181, 0.61);
